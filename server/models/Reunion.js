@@ -49,6 +49,6 @@ const reunionSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const ReunionModel = mongoose.model("Reunion", reunionSchema);
+const Reunion = mongoose.model("Reunion", reunionSchema);
 
-module.exports = ReunionModel;
+module.exports = { Reunion };
