@@ -7,7 +7,7 @@ export default function Index() {
 export const getServerSideProps: GetServerSideProps = async () => {
   return {
     redirect: {
-      destination: '/login',
+      destination: '/dashboard',
       permanent: true,
     },
   }
